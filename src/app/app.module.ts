@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { KyleComponent } from './kyle/kyle.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    KyleComponent
   ],
   imports: [
     BrowserModule
